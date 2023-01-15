@@ -1,0 +1,99 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.testimonials {
+    width: 100%;
+    height: auto;
+    padding: 70px 12%;
+    background-color: rgb(237, 232, 226);
+    color: rgb(189, 102, 102);
+    text-align: center;
+}
+.testimonials > h1 {
+    color: rgb(159, 89, 89);
+    font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.testimonials > p {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 80px;
+    opacity: .8;
+}
+.container {
+    width: 1050px;
+    height: 400px;
+    position: relative;
+}
+.indicator {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX() ;
+    display: flex;
+    text-align: center;
+}
+.dot_active {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(163, 55, 45);
+    border-radius: 20px;
+    margin: 0 6px;
+}
+.active {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(54, 69, 69);
+    cursor: pointer;
+    transition: .6s;
+    border-radius: 20px;
+    margin: 0 6px;
+}
+.slider {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0;
+    top: 0;
+}
+.test_card {
+    width: 400px;
+    height: auto;
+    padding: 40px 30px;
+    border-radius: 4px;
+    background-color: rgb(159, 170, 176);
+    margin: 0 15px;
+    box-shadow: 2px 5px 20px #151515;
+}
+
+.test_card > p {
+    font-size: 20px;
+    line-height: 29px;
+    text-align: left;
+    opacity: .8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.test_person {
+    display: flex;
+    text-align: center;
+    margin-top: 19px;
+}
+.test_person .namedesign {
+    text-align: left;
+}
+.namedesign h3 {
+    font-size: 17px;
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.test_card .test_person img {
+    width: 70px;
+    height: 70px;
+    margin-right: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
